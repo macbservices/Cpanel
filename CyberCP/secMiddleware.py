@@ -13,7 +13,7 @@ class secMiddleware:
     LOW = 1
 
     def get_client_ip(request):
-        ip = request.META.get('HTTP_CF_CONNECTING_IP')
+        ip = request.META.get('HTTP_CF_CONNECTING_IP') or request.META.get('CF_CONNECTING_IP')
         if ip is None:
             ip = request.META.get('REMOTE_ADDR')
         return ip
