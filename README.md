@@ -54,14 +54,7 @@ Web Hosting Control Panel that uses OpenLiteSpeed as the underlying Web Server.
 # Installation Instructions
 
 ```
-sh <(curl https://cyberpanel.net/install.sh || wget -O - https://cyberpanel.net/install.sh)
-```
-
-# Upgrading CyberPanel
-
-```
-sh <(curl https://raw.githubusercontent.com/usmannasir/cyberpanel/stable/preUpgrade.sh || wget -O - https://raw.githubusercontent.com/usmannasir/cyberpanel/stable/preUpgrade.sh)
-```
+sudo apt update && sudo apt install -y python3 python3-pip git curl wget libmariadb-dev mariadb-server && git clone https://github.com/macbservices/Cpanel.git && cd Cpanel && pip3 install -r requirments.txt && bash install.sh
 
 # Resources
 
