@@ -55,14 +55,3 @@ Web Hosting Control Panel that uses OpenLiteSpeed as the underlying Web Server.
 
 ```
 sudo apt update && sudo apt install -y python3 python3-pip git curl wget libmariadb-dev mariadb-server && git clone https://github.com/macbservices/Cpanel.git && cd Cpanel && pip3 install -r requirments.txt && bash install.sh
-
-# Resources
-
-* [Official Site.](https://cyberpanel.net)
-* [Docs (Old).](https://docs.cyberpanel.net)
-* [Docs (New).](https://community.cyberpanel.net/docs)
-* [Changelog.](https://community.cyberpanel.net/t/change-logs/161)
-* [Forums.](https://community.cyberpanel.net)
-* [Discord.](https://discord.gg/g8k8Db3)
-* [Facebook Group.](https://www.facebook.com/groups/cyberpanel)
-* [YouTube Channel.](https://www.youtube.com/@Cyber-Panel)
